@@ -53,13 +53,14 @@ export default {
     }
   },
   methods: {
-    countPrice(price,commodityName){
-      console.log(price)
-      console.log(commodityName)
+    countPrice(commodityName,commodityPrice,price){
+      // console.log(price)
+      // console.log(commodityName)
       // 调用store中的mutations里的方法
       // 传参，使用payload
       let obj = {
         "name":commodityName,
+        "commodityPrice":commodityPrice,
         "price":price
       }
       this.$store.commit('countAllPrice',obj);

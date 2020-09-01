@@ -66,7 +66,7 @@ export default {
         countPrice(price){
             price = price.toFixed(2);
             this.totalPrice = price;
-            this.$emit('countPrice',price,this.commodityName);
+            this.$emit('countPrice',this.commodityName,this.commodityPrice,price);
         }
     }
 }

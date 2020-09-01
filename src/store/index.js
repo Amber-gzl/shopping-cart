@@ -28,6 +28,7 @@ export default new Vuex.Store({
     // 相当于组件中的methods，但是它不能使用异步方法(定时器、axios)
     mutations:{
         countAllPrice(state,obj){
+            console.log(obj);
             var flag = true;
             for(let i in state.priceArr){
                 // console.log(state.priceArr[i])
