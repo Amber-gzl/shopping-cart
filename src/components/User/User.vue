@@ -6,7 +6,7 @@
             </div>
         <div class="routelink list">
             <router-link to="/goods-list">商品信息</router-link> | 
-            <router-link to="/try2">购物车</router-link>
+            <router-link to="/shopping-cart">购物车</router-link>
         </div>
     </div>
     

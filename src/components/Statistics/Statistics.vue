@@ -10,6 +10,6 @@ export default {
 </script>
 <style scoped>
 .allPrice {
-    text-align: right;
+    /* text-align: right; */
 }
 </style>
